@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abobrinha</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url(img/istockphoto-1145984809-170667a.jpg);
+            background-repeat: no-repeat;
+            background-size: cover ;
+        }
+        .cad{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(49, 49, 49, 0.8);
+            padding: 25px;
+            border-radius: 15px;
+            color: white;
+            bottom: 2px solid white;
+        }
+        fieldset{
+            border: 3px solid yellowgreen;
+        }
+        legend{
+            border: 1px solid yellowgreen;
+            padding: 10px;
+            text-align: center;
+            background-color: yellowgreen;
+            border-radius: 5px;
+        }
+        button{
+            background-color: rgb(226, 207, 0);
+            border: none;
+            border-radius: 15px;
+            width: 100%;
+            padding: 15px;
+            color: white;
+        }
+     
+
+        
+       
+       
+    </style>
+</head>
+<body>
+    <div class="cad">
+        <form action="">
+             <fieldset>
+             <legend><b>Cadastro</b></legend>
+             <br>
+             <input type="text" class="ab" required>
+             <label for="nome" >Nome completo</label>
+             <br><br>
+             <input type="text" class="ab" required>
+             <label for="email" >Email</label>
+             <br><br>
+             <input type="tel" class="ab" required>
+              <label for="telefone" >Telefone</label>
+            
+             <p>Sexo:</p>
+             <input type="radio" name="Genero" value="feminino" >
+             <label for="feminino">Feminino</label>
+             <br>
+             <input type="radio" name="Genero" value="masculino">
+             <label for="masculino">Masculino</label>
+             <br>
+             <input type="radio" name="Genero" value="outro">
+             <label for="outro">Outro</label>
+             <br><br>
+             <div class="data">
+             <label for="data_nascimento">Data de Nascimento:</label>
+             <input type="date" name="data_nascimento" id="data_nascimento" class="">      
+             </div>
+             <br><br>
+             <div class="inf">
+             <input type="text" name="cidade"  class="ab" required>
+             <label for="cidade" >Cidade</label>
+             <br><br>
+             <input type="text" name="estado"  class="ab" required>
+             <label for="estado" >Estado</label>
+             <br><br>
+             <input type="text" name="endereco"  class="ab" required>
+             <label for="endereco" >Endereço</label>
+             <br><br>
+             <a href="page3.html"><button>Enviar</button></a>
+                
+            </div>
+        </fieldset>
+        </form>
+    </div>    
+</body>
+</html>
